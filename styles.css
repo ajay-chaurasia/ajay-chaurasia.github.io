@@ -1,0 +1,75 @@
+body {
+    font-family: "Helvetica";
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5 {
+    background-color: beige;
+    padding: 0.5rem;
+}
+
+div {
+    background-color: bisque;
+    outline: 1px solid black;
+}
+
+body div {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+@media(max-width: 675px) {
+    body div {
+        flex-direction: column;
+    }
+}
+
+header {
+    background-color: orange;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    font-size: 2rem;
+}
+
+header ul {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 1rem;
+}
+
+@media(max-width: 675px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.side-panel {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-panel {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 675px) {
+    .side-panel {
+        width: 100%;
+    }
+
+    .main-panel {
+        width: 100%;
+    }
+}
