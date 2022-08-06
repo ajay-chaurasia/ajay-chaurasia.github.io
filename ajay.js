@@ -33,16 +33,34 @@ const ajay = {
         {
             company: "General Electric - Power",
             location: "Bengaluru",
-            position: "Senior Software Engineer",
-            from: "Sept 2018",
-            to: "Current"
+            positions: [
+                {
+                    position: "Senior Software Engineer",
+                    from: "March 2021",
+                    to: "Current"
+                },
+                {
+                    position: "Software Engineer",
+                    from: "Sept 2018",
+                    to: "March 2021"
+                }
+            ],
         },
         {
             company: "Infosys Technologies Ltd.",
             location: "Bengaluru",
-            position: "Technical Analyst",
-            from: "Sept 2014",
-            to: "Sept 2018"
+            positions: [
+                {
+                    position: "Technical Analyst",
+                    from: "Sept 2018",
+                    to: "April 2017"
+                },
+                {
+                    position: "System Engineer",
+                    from: "April 2017",
+                    to: "Sept 2014"
+                }
+            ],
         }
     ],
     projects: [
